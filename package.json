@@ -1,0 +1,28 @@
+{
+  "name": "iqra-web",
+  "version": "1.0.0",
+  "description": "Educational websites to improve young learners in Bahasa Melayu literature and comprehension",
+  "homepage": "https://github.com/Intanaazhar/IQRA-Web#readme",
+  "bugs": {
+    "url": "https://github.com/Intanaazhar/IQRA-Web/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Intanaazhar/IQRA-Web.git"
+  },
+  "license": "ISC",
+  "author": "Intan Azhar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.4",
+    "nodemon": "^3.1.14"
+  }
+}
